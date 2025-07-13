@@ -98,8 +98,8 @@ const response = await fetch('/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-        emailOrName: 'usuario@email.com',
-        password: 'password123'
+        emailOrName: 'test1@test.com',
+        password: 'Test123!!!'
     })
 });
 
@@ -120,10 +120,10 @@ const products = await fetch('/api/products', {
 ## 🛡️ Seguridad Implementada
 - ✅ Encriptación de contraseñas con bcrypt
 - ✅ Validación de JWT tokens
-- ✅ Middleware de autenticación robusto
+- ✅ Middleware de autenticación
 - ✅ Manejo seguro de variables de entorno
 - ✅ Validación de permisos de usuario
-- ✅ Configuración CORS apropiada
+- ✅ Configuración CORS
 
 ## 📁 Características Destacadas
 - **Arquitectura MVC**
