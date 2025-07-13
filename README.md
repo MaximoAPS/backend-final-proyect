@@ -126,22 +126,11 @@ const products = await fetch('/api/products', {
 - ✅ Configuración CORS apropiada
 
 ## 📁 Características Destacadas
-- **Arquitectura MVC** bien estructurada
+- **Arquitectura MVC**
 - **Doble sistema de autenticación** (sesión + Bearer token)
-- **Manejo de errores** consistente y profesional
 - **Validaciones** en middlewares y controladores
 - **Código modular** y reutilizable
-- **Configuración** flexible con variables de entorno
-
-## 🚀 Deployment
-El proyecto está configurado para ser desplegado en servicios como:
-- Heroku
-- Railway
-- Render
-- AWS EC2
 
 ## 👨‍💻 Autor
-**Máximo Pere** - Proyecto Final Curso Backend NodeJS
+**Máximo Adriel Pere Schroder** - Proyecto Final Curso Backend NodeJS
 
----
-*Este proyecto demuestra el dominio de conceptos fundamentales del desarrollo backend: APIs REST, autenticación, bases de datos NoSQL, arquitectura MVC y mejores prácticas de seguridad.* 
