@@ -19,7 +19,15 @@ app.use(cookieSession({
 }));
 
 //CORS middleware
-app.use(cors());
+const corsOptions = {
+    credentials: true,
+    methods: ["GET", "POST", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    exposedHeaders: ["Content-Type", "Authorization"],
+    preflightContinue: false,
+    optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
 
 // Body parser middleware
 app.use(express.json());
