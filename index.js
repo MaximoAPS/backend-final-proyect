@@ -33,6 +33,10 @@ app.use(cors(corsOptions));
 app.use(express.json());
 
 //Routes
+//Home route
+app.get("/", (req, res) => {
+    res.send("Bienvenido a mi API.");
+});
 //Products routes - require authentication
 app.use("/api/products", requireBearerToken, productsRoutes);
 //Auth routes - no authentication required
